@@ -1,0 +1,151 @@
+#nb {
+  border: 1px solid black;
+  height: 100vh;
+  width: 200px;
+  list-style-type: none;
+  background-color: black;
+  position: absolute;
+  top: -17px;/* Adjusted to match the width of the sidebar */
+  transition: left 0.3s ease;
+  box-shadow: 1px 1px 1px 1px white; 
+  font-weight: bold; 
+  /* Added smooth transition */
+}
+li #link{
+  padding: 15px;
+  text-decoration: none;
+  position: relative;
+  top:100px;
+  color: gray;
+}
+.nc{
+  border: 1px solid black;
+}
+body{
+  background-color: black;
+  color: white;
+}
+#nb li {
+  padding: 10px;
+  color: white;
+}
+#nbbtn{
+  cursor: pointer;
+}
+#income{
+  position: relative;
+  left:100px;
+  border: 1px solid gray;
+  height: 50px;
+  width: 300px;
+  top:60px;
+  border-radius: 10px;
+}
+#signincome{
+  border: 1px solid gray;
+  height: 50px;
+  width: 50px;
+  font-size: 10px;
+  color: green;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#income #amountincome{
+  position: absolute;
+  top:-50px;
+  left:100px;
+  padding: 10px;
+}
+#income #amountincome #infoincome{
+  position: relative;
+  top:20px;
+}
+
+#expense{
+  position: relative;
+  left:450px;
+  border: 1px solid gray;
+  height: 50px;
+  width: 300px;
+  top:10px;
+  border-radius: 10px;
+}
+#signexpense{
+  border: 1px solid gray;
+  height: 50px;
+  width: 50px;
+  font-size: 10px;
+  color: green;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#expense #amountexpense{
+  position: absolute;
+  top:-50px;
+  left:100px;
+  padding: 10px;
+}
+#expense #amountexpense #infoexpense{
+  position: relative;
+  top:20px;
+}
+
+#balance{
+  position: relative;
+  left:850px;
+  border: 1px solid gray;
+  height: 50px;
+  width: 300px;
+  top:-40px;
+  border-radius: 10px;
+}
+#signbalance{
+  border: 1px solid gray;
+  height: 50px;
+  width: 50px;
+  font-size: 10px;
+  color: green;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#balance #amountbalance{
+  position: absolute;
+  top:-50px;
+  left:100px;
+  padding: 10px;
+}
+#balance #amountbalance #infobalance{
+  position: relative;
+  top:20px;
+}
+table{
+  width: 500px;
+}
+table,td,tr,th{
+  border:1px solid white;
+  padding: 5px;
+}
+label,input{
+  display: block;
+}
+input[type=date]{
+  background-color: black;
+  color: white;
+  color-scheme: white;
+  border: 1px solid gray;
+  width: 300px;
+  padding: 5px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Inverts the color, making it blue */
+}
+#tablelay{
+  border: 1px solid gray;
+  height: 500px;
+  width: 500px;
+  overflow-y: scroll;
+  box-shadow: 4px 4px 4px 4px rgb(80, 77, 77);
+}
+#tablelay::-webkit-scrollbar {
+  display: none;
+}
